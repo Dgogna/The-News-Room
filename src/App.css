@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-image: url("https://cutewallpaper.org/21/background-opacity/Jumbotron-background-image-opacity-Bootstrap-4-Code-.png"); */
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    color: whitesmoke;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover{
+    color: rgb(152, 151, 151);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.news-list{
+    min-height: 80vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin: auto;
+
+}
+
+/* .middle-item{
+
+} */
+
+.favorites{
+    min-height: 80vh;
+    width: 90%;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center; */
+    margin: auto;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.item{
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+i:hover{
+    cursor: pointer;
 }

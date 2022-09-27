@@ -1,10 +1,15 @@
 body {
+    /* background-image: url("https://cutewallpaper.org/21/background-opacity/Jumbotron-background-image-opacity-Bootstrap-4-Code-.png"); */
+    /* background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"); */
+    background-color: #cccccc;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+
 }
 
 code {
